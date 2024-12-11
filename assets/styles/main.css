@@ -3,10 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 :root {
   --white: #ffffff;
   --dark-gunmetal: #212529;
   --platinum: #DEE2E6;
+  --soft-gray:rgba(201, 201, 211, 0.836);
 }
 .container {
   padding: 0 15px;
@@ -32,7 +36,7 @@ a{
 }
 header{
   position: relative;
-  padding: 20px;
+  padding: 15px;
   background-color: var(--dark-gunmetal);
 }
 .navbar .container{
@@ -90,4 +94,32 @@ header .container  ul li a {
   header nav ul li {
     padding: 0 25px;
   }
+}
+.hero{
+  background-color: var(--soft-gray);
+
+}
+.hero .container{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding:0 70px;
+}
+.hero .container h1{
+  font-size: 55px;
+color: var(--dark-gunmetal);
+}
+.hero .container p{
+  font-size: 18px;
+  color: var(--dark-gunmetal);
+}
+.hero .container input{
+  background-color: var(--dark-gunmetal);
+  color: var(--white);
+width: 100px; 
+padding:10px 20px ;
+border-radius: 10px;
+font-size: 15px;
+margin-top: 10px;
 }
