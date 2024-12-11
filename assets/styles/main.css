@@ -122,4 +122,39 @@ padding:10px 20px ;
 border-radius: 10px;
 font-size: 15px;
 margin-top: 10px;
+outline: none;
+border: none;
+}
+.about .container{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding:70px 70px;
+}
+.about .container h2{
+  font-size: 55px;
+color: var(--dark-gunmetal);
+}
+.about .container .about-details{
+  font-size: 18px;
+  color: var(--dark-gunmetal);
+}
+.about .container input {
+  background-color: var(--dark-gunmetal);
+  color: var(--white);
+width: 100px; 
+padding:10px 20px ;
+border-radius: 10px;
+font-size: 15px;
+margin-top: 10px;
+margin-right: 10px;
+outline: none;
+border: none;
+}
+.about .container .about-btn .view{
+  color: var(--dark-gunmetal);
+  border:2px solid var(--dark-gunmetal);
+  background-color: var(--white);
+  outline: none;
 }
