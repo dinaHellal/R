@@ -243,6 +243,7 @@ border: none;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 50px;
+  margin-bottom: 20px;
 }
 .contact-section .form {
   padding-left: 100px;
@@ -279,6 +280,14 @@ padding: 10px;
 margin-left: 370px;
 
 }
+@media (max-width: 991px){
+  .contact-section .form textarea{
+    width: 100%;
+  }
+  .contact-section .form .submit-btn{
+    margin-left: 10px;
+  }
+}
 .contact-section .form  h3{
   color: var(--dark-gunmetal);
   font-size: 30px;
@@ -300,4 +309,11 @@ margin-left: 370px;
 }
 .icon p{
   font-size: 20px;
+}
+footer{
+  background-color: var(--dark-gunmetal);
+  color: var(--white);
+  text-align: center;
+  padding: 20px;
+  font-size:20px ;
 }
