@@ -199,20 +199,22 @@ border: none;
 }
 .blog-cards  {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 20px;
   margin-left: 150px;
   margin-right:100px;
   margin-bottom: 20px;
 }
 @media (max-width: 991px){
-  .blog-cards {
-    display: flex;
-    flex-wrap: wrap;
+  .blog-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    gap: 20px;
+
   }
-  .blog-cards .blog-card {
-    padding: 30px;
-    width: 500px;
+  .blog-cards .blog-card{
+    padding: 20px;
+    width: 300px;
   }
 }
 .blog-cards .blog-card{
@@ -220,7 +222,7 @@ border: none;
   color: var(--dark-gunmetal);
   padding: 20px 0px  25px ;
   border-radius: 15px;
- text-align: center;
+  text-align: center;
 }
 .blog-cards .blog-card h3{
   font-size: 20px;
@@ -230,4 +232,15 @@ border: none;
 .blog-cards .blog-card p{
   font-size: 18px;
 }
-
+.contact h2{
+  font-size: 70px;
+  color: var(--dark-gunmetal);
+  padding: 15px 0;
+  align-items: center;
+  text-align: center;
+}
+.contact-section{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 20px;
+}
