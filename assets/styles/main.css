@@ -161,7 +161,7 @@ border: none;
 .services{
   align-items: center;
   text-align: center;
-  background-color: var(--soft-gray);
+  background-color: var(--platinum);
 }
 .services h2{
   font-size: 55px;
@@ -189,4 +189,35 @@ border: none;
 }
 .services-cards .services-card p{
   color: var(--white);
+}
+.blog h2{
+  font-size: 70px;
+  color: var(--dark-gunmetal);
+  padding: 15px 0;
+  align-items: center;
+  text-align: center;
+}
+.blog-cards  {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 20px;
+  margin-left: 150px;
+  margin-right:100px;
+  margin-bottom: 20px;
+}
+.blog-cards .blog-card{
+  background-color: var(--platinum);
+  color: var(--dark-gunmetal);
+  padding: 20px 0px  25px 230px;
+  border-radius: 15px;
+  width: 400px;
+  align-items: last baseline;
+}
+.blog-cards .blog-card h3{
+  font-size: 20px;
+  color: var(--dark-gunmetal);
+  margin-bottom: 10px;
+}
+.blog-cards .blog-card p{
+  font-size: 18px;
 }
